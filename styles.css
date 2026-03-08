@@ -1,0 +1,113 @@
+/* Tüm sayfa */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* Üst ve alt bar */
+.main-header,
+.main-footer {
+    background: #1e3a8a;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Menü linkleri */
+.main-header nav a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.main-header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Ortadaki beyaz kutu */
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+}
+
+/* Buton */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #2563eb;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Mesaj kutuları */
+.error {
+    background: #fee2e2;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.success {
+    background: #dcfce7;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Form elemanları */
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+/* Forum alanı */
+.forum-post {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 6px 0;
+}
+
+.forum-meta {
+    font-size: 0.9em;
+    color: #6b7280;
+    margin-bottom: 3px;
+}
+
+.forum-content {
+    white-space: pre-wrap;
+}
+/* Progress bar */
+.progress-container {
+    background: #e5e7eb;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 16px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #16a34a;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+/* Upcoming deadlines kutusu */
+.panel {
+    border: 1px solid #e5e7eb;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 6px;
+    background: #f9fafb;
+}
+
+
